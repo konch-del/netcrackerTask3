@@ -39,9 +39,15 @@ public class Main {
             String[] a = shirts[i].split(",");
             Shirt b = new Shirt(a[0],a[1],a[2],a[3]);
             System.out.println(b.toString());
-        }*/
+        }
         System.out.println(Number.NumberForm("+79175655655"));
         System.out.println(Number.NumberForm("89175655655"));
-        System.out.println(Number.NumberForm("+104289652211"));
+        System.out.println(Number.NumberForm("+104289652211"));*/
+        Person pr = new Person("Степанов");
+        Person pr1 = new Person("Сучков","Игорь");
+        Person pr2 = new Person("Гребенников","Игорь","Максимович");
+        System.out.println(pr.getFIO());
+        System.out.println(pr1.getFIO());
+        System.out.println(pr2.getFIO());
     }
 }

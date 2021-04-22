@@ -8,6 +8,14 @@ public class Person {
     Person(String lname){
         this.lname = lname;
     }
+    Person(String lname, String fname){
+        this(lname);
+        this.fname = fname;
+    }
+    Person(String lname, String fname, String patronymic){
+        this(lname,fname);
+        this.patronymic = patronymic;
+    }
 
     public String getFname() {
         return fname;
